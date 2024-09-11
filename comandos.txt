@@ -1,0 +1,19 @@
+
+
+Configuracion inicial GIT
+***********************************************************
+git init
+git statuts
+git add xxxxx.xxx
+
+git config --list
+git config --global user.name "Noe CM"
+git config --global user.email "noe.cm.kyp@gmail.com"
+***********************************************************
+
+git add xxxx.xx
+git add .
+git commit -m "primer commit"
+git log
+
+
