@@ -1,0 +1,21 @@
+se tiene que abrir GIT Bash desde inicio 
+
+pwd
+ssh-keygen -t rsa -b 4096 -C "noe.cm.kyp@gmail.com"
+ENTER
+ENTER
+eval `ssh-agent -s`		Pregunta si tenemos activo el programa que evalua la llave privada (activo -> agente pid 180)
+ssh-add ~/.ssh/id_rsa		estamos agregando la llave identidad a la computadora con ese correo
+
+AGREGAR llave SSH en la pagina GitHub de esta en carpeta C:\Users\HP\.ssh
+
+PUSH PROYECTO EXISTENTE
+git init
+git remote add origin https://github.com/noecolla/mi-proyecto-git.git
+git remote -v				que agrego?
+
+
+
+
+
+

@@ -1,19 +1,34 @@
+pwd		para saber donde estamos ubicados
+q		salir de mucho texto
 
 
 Configuracion inicial GIT
 ***********************************************************
-git init
-git statuts
-git add xxxxx.xxx
-
 git config --list
 git config --global user.name "Noe CM"
 git config --global user.email "noe.cm.kyp@gmail.com"
 ***********************************************************
 
+ls -a           ver archivos
+
+git init
+git statuts
 git add xxxx.xx
+
 git add .
 git commit -m "primer commit"
-git log
+
+git log                          	 ver los vomit de actualizaciones
+
+git diff token_antiguo token_reciente	ver los cambios realizados
+
+git checkout <id> index.html        regresa al id colocado, el id puede ser de 8 primeros numeros
+git reset <id> --hard               HARD borra todo e incluso del stage y el SOFT no
+
+
+ALT+Z SALTO DE LINEA VISUAL
+
+
+
 
 
