@@ -13,6 +13,9 @@ PUSH PROYECTO EXISTENTE
 git init
 git remote add origin https://github.com/noecolla/mi-proyecto-git.git
 git remote -v				que agrego?
+git push -u origin master
+
+
 
 
 
